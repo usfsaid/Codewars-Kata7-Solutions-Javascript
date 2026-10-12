@@ -12,6 +12,8 @@
 // 3-return num
 
 function getCount(str) {
+  //Soluation 1
+
   // let strLower = str.toLowerCase();
   // let words = Array.from(strLower); // ["p","e","a","r"," ","t","r","e","e"]
   // let vowels = ["a", "e", "i", "o", "u"];
@@ -22,7 +24,9 @@ function getCount(str) {
   //   }
   // }
   // return count;
-  const regex = /[aeiou]/gi;
+
+  //Soluation 2
+  const regex = /[aeiou]gi/;
   return (str.match(regex) || []).length;
 }
 
