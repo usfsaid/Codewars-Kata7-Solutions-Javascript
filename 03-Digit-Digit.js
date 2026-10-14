@@ -15,7 +15,7 @@
 //1-convert num to string    ==> <toString()>
 //1-convert string to arr    ==><split("")> or <Arrary.form(str)>
 //3-loop in arr              ==><map(()=>)>
-//4-power of each num in arr
+//4-power of each num in arr ==>Math.pow(num,2)
 //5-convert arr to str       ==><join("")>
 //6-convert str to number    ==><Number(str)> or <parseInt(str)>
 
